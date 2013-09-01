@@ -3,7 +3,7 @@
 
 	var arabicRemover = {};
 
-	if(document.location.host.match(/facebook|twitter/)) {
+	if(document.location.host.match(/facebook.com|twitter.com/)) {
 
 		// http://stackoverflow.com/a/14570614
 		var observeDOM = (function(){
